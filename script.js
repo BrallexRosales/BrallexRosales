@@ -5,4 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
   button.addEventListener('click', () => {
     message.textContent = 'Hello from script.js! Your project is ready.';
   });
-});
+});setTimeout(() => {
+  document.querySelector(".intro").style.display = "none";
+}, 3000);
